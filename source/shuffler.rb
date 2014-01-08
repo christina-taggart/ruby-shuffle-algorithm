@@ -1,5 +1,7 @@
 def shuffle(array)
-  # Implement the shuffle method
+
+  answer = array.sample(10)
+  answer
 end
 
 

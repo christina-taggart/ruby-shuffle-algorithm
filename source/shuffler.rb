@@ -1,8 +1,8 @@
 def shuffle(array)
-  # Implement the shuffle method
+  array.sample(array.length)
 end
 
-
+# array.each_index {|x,y| rand(array.length-1)}
 # Driver code:
 sorted_array = (1..10).to_a
 
@@ -10,3 +10,4 @@ sorted_array = (1..10).to_a
 p shuffle(sorted_array)
 p shuffle(sorted_array)
 p shuffle(sorted_array)
+

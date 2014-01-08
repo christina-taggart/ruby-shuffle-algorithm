@@ -2,9 +2,7 @@ def shuffle(array)
   # Implement the shuffle method
   (array.length - 1).downto(1) do |i|
     j = rand(i)
-    old_i = array[i]
-    array[i] = array[j]
-    array[j] = old_i
+    array[i], array[j] = array[j], array[i]
   end
   array
 end

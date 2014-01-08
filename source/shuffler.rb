@@ -1,4 +1,5 @@
 def shuffle(array)
+  array.sample(array.length)
   # Implement the shuffle method
 end
 
@@ -10,3 +11,4 @@ sorted_array = (1..10).to_a
 p shuffle(sorted_array)
 p shuffle(sorted_array)
 p shuffle(sorted_array)
+

@@ -1,7 +1,6 @@
 def shuffle(array)
-  # Implement the shuffle method
+  array.sample(array.length)
 end
-
 
 # Driver code:
 sorted_array = (1..10).to_a

@@ -1,5 +1,18 @@
+
+
+
 def shuffle(array)
-  # Implement the shuffle method
+  method_array = array.dup
+  index = 0
+  final = []
+  while method_array.length > 0
+    random_number = rand(method_array.length)
+
+    final << method_array.delete_at(random_number)
+
+  end
+  final
+
 end
 
 
